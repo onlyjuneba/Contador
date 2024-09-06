@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    padding: 0;  /* ELE VAI DAR UM ESPAÇAMENTO INTERNO */
+    margin: 0;  /* ELE VAI DAR UM ESPAÇAMENTO EXTERNO */
+    box-sizing: border-box; /* ADICIONAR BORDA NO TAMANHO MAXIMO */
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(#252525, #606060 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#container {
+    width: 500px;
+    height: 200px;
+    border-radius: 50px 2px 50px 2px;
+    background-color: rgb(31, 31, 31);
+}
+
+#items {
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#items #btndecrease,#btnreset,#btnincrease {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    color: white;
+    background: #353535;
+    border-radius: 20px;
+    border-style: none;
+}
+
+#items #btndecrease:hover,#btnreset:hover,#btnincrease:hover {
+    background-color: #606060;
+}
+
+#horario { 
+    display: flex;
+    justify-content: space-around;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+#items #hora,#hr,#min,#seg {
+    margin-top: 15px;
+    color: rgba(0, 183, 255, 0.89);
+}
+
+#items #hora:hover,#hr:hover,#min:hover,#seg:hover {
+    color: rgb(0, 89, 255, 0.89);
+}
