@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 * {
-    padding: 0;  /* ELE VAI DAR UM ESPAÇAMENTO INTERNO */
-    margin: 0;  /* ELE VAI DAR UM ESPAÇAMENTO EXTERNO */
-    box-sizing: border-box; /* ADICIONAR BORDA NO TAMANHO MAXIMO */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
@@ -18,7 +18,6 @@ body {
 
 #container {
     width: 500px;
-    height: 200px;
     border-radius: 50px 2px 50px 2px;
     background-color: rgb(31, 31, 31);
 }
@@ -45,6 +44,7 @@ body {
 }
 
 #horario { 
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-around;
     padding-left: 125px;
